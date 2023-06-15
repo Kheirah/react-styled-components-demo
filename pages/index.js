@@ -7,20 +7,20 @@ export default function HomePage() {
   return (
     <>
       <Container>
-        <Button>Click me</Button>
-        <Button color="danger">Click me not</Button>
+        <Button>Styled</Button>
+        <Button color="danger">Styled (danger)</Button>
       </Container>
 
       <Container>
         <p>
-          This is a <Link href="/"> link</Link>.
+          This is a <Link href="/">styled link</Link>.
         </p>
       </Container>
 
       <Container direction="column">
-        <InfoBox title="This is an info" message="Read it carefully!" />
+        <InfoBox title="This is an info message" message="Read it carefully!" />
         <InfoBox
-          title="It worked"
+          title="Success"
           message="You have done it!"
           variant="success"
         />
